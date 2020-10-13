@@ -8,8 +8,8 @@ positive number. */
 //Anuj Goel - B18161
 void negsqrt(int n){
 	n = -1 * n;
-	printf("Sqrt of %d is %fi\n", -n, sqrt(n));
-	printf("End of program. Exiting\n");
+	printf("DEBUG: Sqrt of %d is %fi\n", -n, sqrt(n));
+	printf("DEBUG: End of program. Exiting\n");
 	return;
 }
 
@@ -17,7 +17,7 @@ void negsqrt(int n){
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {
-		printf("Usage: sqrt input\n\n");
+		printf("DEBUG: Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
@@ -28,8 +28,8 @@ int main(int argc, char* argv[]) {
 		return 0;
 	}
 
-	printf("Sqrt of %d is %f\n",input,sqrt(input));
-	printf("End of program. Exiting.\n");
+	printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(input));
+	printf("DEBUG: End of program. Exiting.\n");
 	return(0);
 
 } // end main
